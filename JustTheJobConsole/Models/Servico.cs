@@ -6,24 +6,19 @@ using System.Threading.Tasks;
 
 namespace JustTheJobConsole.Models
 {
-    public class Servico: Operacao
+    public class Servico
     {
-        private List<Funcionario> equipe;
-        private Avaliacao avaliacao;
+		public int Id { get; set; }
+        public Imovel Imovel { get; set; }
+        public DateTime DataExecucao { get; set; }
+        public DateTime DataTerminio { get; set; }
+        public Cliente Cliente { get; set; }
+        public double Valor { get; set; }
+        public Funcionario Gerente { get; set; }
+		private List<Funcionario> Equipe { get; set; }
 
-        public Servico(
-            Cliente cliente, 
-            Imovel imovel, 
-            DateTime dataInicial, 
-            DateTime dataFinal,
-            List<Funcionario> equipe, 
-            Avaliacao avaliacao) : base(imovel, cliente, dataInicial, dataFinal)
-        {
-            this.equipe = equipe;
-            this.avaliacao = avaliacao;
-        }
 
-        public void AdicionarMembroAEquipe(Funcionario func)
+		public void AdicionarMembroAEquipe(Funcionario func)
         {
             throw new NotImplementedException();
         }
