@@ -23,5 +23,10 @@ namespace JustTheJobConsole.Models
 			throw new NotImplementedException();
 		}
 
+		public void VisualizarFuncionarios()
+		{
+			throw new NotImplementedException();
+		}
+
 	}
 }

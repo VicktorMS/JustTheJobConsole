@@ -28,5 +28,10 @@ namespace JustTheJobConsole.Models
             throw new NotImplementedException();
         }
 
-    }
+		public void MarcarVisitaParaCotacao(DateTime data, Imovel imovel, Funcionario gerente)
+		{
+			throw new NotImplementedException();
+		}
+
+	}
 }

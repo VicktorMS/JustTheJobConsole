@@ -16,5 +16,10 @@ namespace JustTheJobConsole.Models
         {
             throw new NotImplementedException();
         }
-    }
+
+		public string VisualizarImovelResidencia()
+		{
+			throw new NotImplementedException();
+		}
+	}
 }

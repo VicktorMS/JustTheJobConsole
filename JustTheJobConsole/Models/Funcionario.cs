@@ -8,6 +8,9 @@ namespace JustTheJobConsole.Models
 {
     public class Funcionario
     {
-
-    }
+		public void VisualizarDadosFuncionario()
+		{
+			throw new NotImplementedException();
+		}
+	}
 }

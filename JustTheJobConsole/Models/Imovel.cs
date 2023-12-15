@@ -1,4 +1,6 @@
-﻿namespace JustTheJobConsole.Models
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace JustTheJobConsole.Models
 {
     public class Imovel
     {
@@ -23,8 +25,13 @@
         }
 
         public void VisualizarHistoricoServico()
-        {
+		{
             throw new NotImplementedException();
-        }
-    }
+		}
+
+        public void MarcarVisitaParaCotacao(DateTime data, Imovel imovel, Funcionario gerente) 
+        { 
+			 throw new NotImplementedException();
+		}
+	}
 }
